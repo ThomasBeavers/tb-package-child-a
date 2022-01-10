@@ -1,10 +1,10 @@
 {
   "name": "tb-package-child-a",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha *.test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ThomasBeavers/tb-package-child-a/issues"
   },
-  "homepage": "https://github.com/ThomasBeavers/tb-package-child-a#readme"
+  "homepage": "https://github.com/ThomasBeavers/tb-package-child-a#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
 }
