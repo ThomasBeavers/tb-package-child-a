@@ -7,4 +7,7 @@ describe('integration test', function () {
 		const childAPackage = childA.whoami();
 		assert.deepStrictEqual(childAPackage, package, 'package is not equal');
 	})
+	it('should have a v1_2 function', function () {
+		assert.strictEqual(typeof (childA.v1_2), 'function');
+	})
 });
